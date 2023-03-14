@@ -137,8 +137,10 @@ p{
     flex-flow:row wrap;
 }
 
+/*never use pixel for width, use percentage intead*/
+
 .actions-list li{
-    max-width: 40%;
+    max-width: 50%;
     padding: 1em;
     text-align: center;
     font-size: 1.5rem;
