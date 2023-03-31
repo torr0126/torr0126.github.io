@@ -1,0 +1,35 @@
+/*
+font-family:'flayfair display, serif;
+font-family:'source sans pro', sans serif;
+*/
+
+h1{
+    font-family: 'flayfair display', serif;
+    font-weight: 700;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*font awesome icons*/
+h1 i::before{
+    font-size: 6rem;
+    color: cornflowerblue;
+}
+
+.a-face-awesome::before{
+    font-style: 6rem;
+    color: darkcyan
+}
+/*margin 0 auto for the final asignment*/
+
+.map iframe{
+    width: 100%;
+    max-width: 800px;
+    margin:0 auto;
+    display: block;
+}
