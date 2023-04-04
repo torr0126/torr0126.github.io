@@ -1,12 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Meta tags -->
+		<meta charset="UTF-8">
+		<meta name="description" content="HTML Page Mock-up Web Development Project 23W_MTM6130">
+		<meta name="author" content="Monica Torres">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+	<title>HTML Page Mock-up</title>
+    <!-- reset.CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- My own styles -->
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 <body>
-    
+    <!--Start with header-->
+    <header>
+        <!--Adding nav section-->
+        <nav>
+            <ul>
+                <li><img src="./images/logo.png" alt="Company Logo"></li>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Services</li>
+                <li>Team</li>
+                <li>Contact</li>
+                <li>
+                    <input type="search" value="Search...">
+                    <i class="fa fa-magnifying-glass"></i>
+                </li>
+            </ul>
+        </nav>
+
+        <!--Adding a section inside the header class:title-section-->
+        <section class="title-section">
+
+            <h1>Welcome to Three Star Media</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum, 
+                at ad ea corrupti eaque sequi dolore aliquid iusto.
+            </p>
+            <a href="#">Connect with us <i class="fa-solid fa-play"></i></a>
+        </section>
+    </header> 
+         
+    <main>
+
+        <!--Insert section About us-->
+        <section class="about-us">
+            <img src="./images/about-us.jpg" alt="Image of the office">
+            <h2>About Us</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum, 
+                at ad ea corrupti eaque sequi dolore aliquid iusto.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum, 
+                at ad ea corrupti eaque sequi dolore aliquid iusto.
+            </p>
+        </section>
+        
+        <!--Insert section classs:"our-services"-->
+        <section class="our-services">
+            <h2>Our Services</h2>
+
+            <!--use div for service id:"digital-Trans"-->
+            <div id="digital-trans">
+                <img src="./images/digital.jpg" alt="Computers we use at the office">
+                <h3>Digital Transformation</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum, 
+                    at ad ea corrupti eaque sequi dolore aliquid iusto.
+                </p>
+                <p>
+                    <a href="#">Digital Plans</a>
+                    <i class="fa-solid fa-play"></i>
+                </p>
+            </div>
+
+            <!--use div for service id:"marketing"-->
+            <div id="marketing">
+                <img src="./images/marketing.jpg" alt="Marketing image">
+                <h3>Marketing</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum, 
+                    at ad ea corrupti eaque sequi dolore aliquid iusto.
+                </p>
+                <p>
+                    <a href="#">Marketing Plans</a>
+                    <i class="fa-solid fa-play"></i>
+                </p>
+            </div>
+
+            <!--use div for service id:"video"-->
+            <div id="video">
+                <img src="./images/video.jpg" alt="Video Production image">
+                <h3>Video Production</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum, 
+                    at ad ea corrupti eaque sequi dolore aliquid iusto.
+                </p>
+                <p>
+                    <a href="#">Video Plans</a>
+                    <i class="fa-solid fa-play"></i>
+                </p>
+            </div>
+
+            <!--use div for service id:"web-dev"-->
+            <div id="web-dev">
+                <img src="./images/web.jpg" alt="Web Development image">
+                <h3>Web Development</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum, 
+                    at ad ea corrupti eaque sequi dolore aliquid iusto.
+                </p>
+                <p>
+                    <a href="#">Web Plans</a>
+                    <i class="fa-solid fa-play"></i>
+                </p>
+            </div>
+
+            <!--use div for service id:"print"-->
+            <div id="print">
+                <img src="./images/print.jpg" alt="Print image">
+                <h3>Print</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum, 
+                    at ad ea corrupti eaque sequi dolore aliquid iusto.
+                </p>
+                <p>
+                    <a href="#">Print Plans</a>
+                    <i class="fa-solid fa-play"></i>
+                </p>
+            </div>
+        </section>
+
+        <!--Insert section classs:"our-vision"-->
+        <section class="our-vision">
+            <img src="./images/vision.jpg" alt="Our vision image">
+            <h3>Our Vision</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum, 
+                at ad ea corrupti eaque sequi dolore aliquid iusto.
+            </p>
+            <p>
+                <a href="#">Print Plans</a>
+                <i class="fa-solid fa-play"></i>
+            </p>
+        </section>
+
+        <!--Insert section classs:"our-team"-->
+        <section class="our-team">
+            
+            <!--Include a div for each team member "ceo" & "cfo" -->
+            <div class="ceo">
+                <h2>Our Team</h2>
+                <img src="./images/john.jpg" alt="a photo of John Doe">
+                <h3>John Doe</h3>
+                <h5>CEO and Co-owner</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum, 
+                    at ad ea corrupti eaque sequi dolore aliquid iusto.
+                </p>
+            </div>
+
+            <div class="cfo">
+                <img src="./images/bob.jpg" alt="a photo of Bob Rite">
+                <h3>Bob Rite</h3>
+                <h5>CFO and Co-owner</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum, 
+                    at ad ea corrupti eaque sequi dolore aliquid iusto.
+                </p>
+            </div>
+        </section>
+
+        <!--Insert section classs:"contact-us"-->
+        <section class="contact-us">
+
+            <h1>Contact us</h1>
+
+            <!--Include a div id:"message-form" -->
+            <div id="message-form">
+                <h3>Send us a message</h3>
+                <form action="#">
+                    <label for="full-name">Full Name</label><br>
+                    <input type="text"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email"><br>
+                    <label for="message">Message</label><br>
+                    <input type="textarea"><br>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+
+            <!--Include a div id:"hours-of-operation" -->
+            <div id="hours-of-operation">
+                <h3>Hours of operation</h3>
+
+                <!--insert table hours of opertarion-->
+                <table>
+                    <tr>
+                        <th>Days</th>
+                        <th>Hours</th>
+                    </tr>
+                    <tr>
+                        <td>Monday to Friday</td>
+                        <td>9:00 am to 6:00 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday and Sunday</td>
+                        <td>Closed</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <!--Include a div id:"location-map" -->
+            <div id="location-map">
+                <h3>Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.3718196395257!2d-75.75800714622575!3d45.34863002513005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1680448094688!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>        
+    </main> 
+	
+    <!--Creating footer-->
+    <footer>
+        <p>
+            &copy; Copyright Three Star Media, 2020 <br>
+            All images are taken from <a href="#">Unsplash</a>
+        </p>
+    </footer>
+
 </body>
 </html>
