@@ -254,7 +254,7 @@ h5 {
 
 hr {
     border: 1px solid #c78c06;
-    align: center;
+    align-items: center;
     width: 95%;
     margin-left: .75rem;
 }
