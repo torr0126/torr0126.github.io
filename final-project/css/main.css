@@ -44,8 +44,10 @@ body {
 }
 
 /* To clear floating elements when needed */
-.clearfix { 
-    overflow: auto;
+.clearfix::after { 
+    content: '';
+    display: table;
+    clear: both;
   }
 
 
@@ -101,13 +103,11 @@ h5 {
 
 .logo {
     background-color: #c78c06;
+    margin-right: 20rem;
 }
 
-.logo img {
-    display: flex;
-}
 
-.navigation-list a {
+.navigation a{
     display: block;
     list-style: none;
     color: #c78c06;
@@ -116,9 +116,9 @@ h5 {
     
 }
 
-.navigation-list a:hover,
-.navigation-list a:focus,
-.navigation-list a.current {
+a:hover,
+a:focus,
+a.current {
     background-color: #c78c06;
     color: black;
 }
@@ -334,7 +334,5 @@ td {
 
 /* Media Queries -  */
 @media screen and (min-width: 760px) {
-    body {
-        /* background: rgba(0, 0, 0, 0.6); */
-    }
+
 }
