@@ -2,25 +2,13 @@
 Project:        Final Project - 23W_MTM6130_040 Web Development - Interactive Media Design
 Author:         Monica Torres
 
-Content
-1. General
-	1.1 Grid Definition
-2. Header 
-    2.1 Navigation
-    2.2 Personal Mark
-3. Main Content
-	3.1 Sidebar
-4. Footer
-5. Media Queries  ARE GIVEN BY BOOTSTRAP
 Colors:
 			Dark Goldenrod:	#c78c06
 			Peach: 		    #ffe6ac
 			Eerie Black:	#222
 			White:          #ffffff
 Fonts:
-                font-family: 'Quicksand', sans-serif;
-                font-family: 'Raleway', sans-serif;
-                font-family: 'Roboto', sans-serif;
+            font-family: 'Opensans'
 ------------------------------------------------------------*/
 
 /* 
@@ -44,10 +32,8 @@ body {
 }
 
 /* To clear floating elements when needed */
-.clearfix::after { 
-    content: '';
-    display: table;
-    clear: both;
+.clearfix { 
+    overflow: auto;
   }
 
 
@@ -103,11 +89,13 @@ h5 {
 
 .logo {
     background-color: #c78c06;
-    margin-right: 20rem;
 }
 
+.logo img {
+    display: flex;
+}
 
-.navigation a{
+.navigation-list a {
     display: block;
     list-style: none;
     color: #c78c06;
@@ -116,9 +104,9 @@ h5 {
     
 }
 
-a:hover,
-a:focus,
-a.current {
+.navigation-list a:hover,
+.navigation-list a:focus,
+.navigation-list a.current {
     background-color: #c78c06;
     color: black;
 }
@@ -320,6 +308,11 @@ td {
     padding: .75rem;
 }
 
+.location-map iframe {
+    max-width: 400px;
+    max-height: 400px;
+}
+
 /* 
         Footer Styles 
 */
@@ -334,5 +327,7 @@ td {
 
 /* Media Queries -  */
 @media screen and (min-width: 760px) {
-
+    /*body {
+        background: rgba(0, 0, 0, 0.6); 
+    }*/
 }

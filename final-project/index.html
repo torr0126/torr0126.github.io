@@ -22,249 +22,264 @@
 </head>
 
 <body>
-    <!--Start with header-->
-    <header>
-        <!--Adding nav section-->
-        <nav class="navigation">
-            
-            <ul>
-                <li><img src="./images/logo.png" alt="Company Logo" class="logo"></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about-us">About us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <form Class="search-bar" action="#">
-                <input type="search" placeholder="Search.." name="search">
-                <button type="submit"> <i class="fa fa-magnifying-glass"></i></button>
-            </form>
-        </nav>
-
-        <!--Adding a section inside the header class="banner"-->
-        <section class="banner width">
-            <div class="banner-text max-width">
-                <h1>Welcome to Three Star Media</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
-                    at ad ea corrupti eaque sequi dolore aliquid iusto.
-                </p>
-                <a href="#">Connect with us <i class="fa-solid fa-play"></i></a>
-            </div>
-        </section>
-    </header>
-
-    <main>
-
-        <!--Insert section About us-->
-        <section class="about-us width" id="about-us">
-            <div class="about max-width">
-                <img src="./images/about-us.jpg" alt="Image of the office">
-                <div class="about-text">
-                    <h2>About Us</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
-                        at ad ea corrupti eaque sequi dolore aliquid iusto.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
-                        at ad ea corrupti eaque sequi dolore aliquid iusto.
-                    </p>
+    <div class="wrapper"> <!-- Added to have all the code in one container -->
+        <!--Start with header-->
+        <header>
+            <!--Adding nav section-->
+            <nav class="navigation"> <!-- Added to improve CSS -->
+                <div class="logo">
+                    <a href="index.html"><img src="./images/logo.png" alt="Company Logo">
+                    </a>
                 </div>
-            </div>
-        </section>
-
-        <!--Insert section classs:"our-services"-->
-        <section class="our-services width" id="services">
-            <div class="services max-width">
-                <h2>Our Services</h2>
-
-                <!--use div for service id:"digital-Trans"-->
-                <div class="digital-trans">
-                    <img src="./images/digital.jpg" alt="Computers we use at the office">
-                    <h3>Digital Transformation</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
-                        at ad ea corrupti eaque sequi dolore aliquid iusto.
-                    </p>
-                    <p>
-                        <a href="#">Digital Plans</a>
-                        <i class="fa-solid fa-play"></i>
-                    </p>
-                </div>
-
-                <!--use div for service id:"marketing"-->
-                <div class="marketing max-width">
-                    <img src="./images/marketing.jpg" alt="Marketing image">
-                    <h3>Marketing</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
-                        at ad ea corrupti eaque sequi dolore aliquid iusto.
-                    </p>
-                    <p>
-                        <a href="#">Marketing Plans</a>
-                        <i class="fa-solid fa-play"></i>
-                    </p>
-                </div>
-
-                <!--use div for service id:"video"-->
-                <div class="video max-width">
-                    <img src="./images/video.jpg" alt="Video Production image">
-                    <h3>Video Production</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
-                        at ad ea corrupti eaque sequi dolore aliquid iusto.
-                    </p>
-                    <p>
-                        <a href="#">Video Plans</a>
-                        <i class="fa-solid fa-play"></i>
-                    </p>
-                </div>
-
-                <!--use div for service id:"web-dev"-->
-                <div class="web-dev max-width">
-                    <img src="./images/web.jpg" alt="Web Development image">
-                    <h3>Web Development</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
-                        at ad ea corrupti eaque sequi dolore aliquid iusto.
-                    </p>
-                    <p>
-                        <a href="#">Web Plans</a>
-                        <i class="fa-solid fa-play"></i>
-                    </p>
-                </div>
-
-                <!--use div for service id:"print"-->
-                <div class="print max-width">
-                    <img src="./images/print.jpg" alt="Print image">
-                    <h3>Print</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
-                        at ad ea corrupti eaque sequi dolore aliquid iusto.
-                    </p>
-                    <p>
-                        <a href="#">Print Plans</a>
-                        <i class="fa-solid fa-play"></i>
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!--Insert section classs:"our-vision"-->
-        <section class="our-vision width">
-            <div class="vision max-width">
-                <h3>Our Vision</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
-                    at ad ea corrupti eaque sequi dolore aliquid iusto.
-                </p>
-                <p>
-                    <a href="#">Print Plans</a>
-                    <i class="fa-solid fa-play"></i>
-                </p>
-            </div>
-        </section>
-
-        <!--Insert section classs:"our-team"-->
-        <section class="our-team width" id="team">
-            <div class="team max-width">
-                <h2>Our Team</h2>
-
-                <img src="./images/john.jpg" alt="a photo of John Doe">
-                <!--Include a div for each team member "ceo" & "cfo" -->
-
-                <div class="ceo max-width">
-                    <h3>John Doe</h3>
-                    <h5>CEO and Co-owner</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
-                        at ad ea corrupti eaque sequi dolore aliquid iusto.
-                    </p>
-                </div>
-
-                <img src="./images/bob.jpg" alt="a photo of Bob Rite">
-
-                <div class="cfo max-width">
-                    <h3>Bob Rite</h3>
-                    <h5>CFO and Co-owner</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
-                        at ad ea corrupti eaque sequi dolore aliquid iusto.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!--Insert section classs:"contact-us"-->
-        <section class="contact-us width" id="contact">
-
-            <h2>Contact us</h2>
-
-            <!--Include a div id:"message-form" -->
-            <div class="message-form max-width">
-                <h3>Send us a message</h3>
-                <form action="#">
-                    <label for="full-name">Full Name</label><br>
-                    <input type="text"><br>
-                    <label for="email">Email</label><br>
-                    <input type="email"><br>
-                    <label for="message">Message</label><br>
-                    <input type="textarea"><br>
-                    <input type="submit" value="Send">
+                <ul class="navigation-list"> <!-- Added to improve CSS -->
+                    <li><a href="index.html" class="current">Home</a></li>
+                    <li><a href="#about-us">About us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <form class="search-bar" action="/action_page.php">
+                    <input type="search" placeholder="Search...">
+                    <button type="submit"><i class="fa fa-magnifying-glass"></i></button>
                 </form>
-            </div>
+            </nav>
 
-            <!--Include a div id:"hours-of-operation" -->
-            <div class="hours-of-operation max-width">
-                <h3>Hours of operation</h3>
+            <!--Adding a section inside the header class="banner"-->
+            <section class="banner width">
+                <div class="banner-text max-width">
+                    <h1>Welcome to Three Star Media</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
+                        at ad ea corrupti eaque sequi dolore aliquid iusto.
+                    </p>
+                    <a href="#">Connect with us <i class="fa-solid fa-play"></i></a>
+                </div>
+            </section>
+        </header>
 
-                <!--insert table hours of opertarion-->
-                <table>
-                    <tr>
-                        <th>Days</th>
-                        <th>Hours</th>
-                    </tr>
-                    <tr>
-                        <td>Monday to Friday</td>
-                        <td>9:00 am to 6:00 pm</td>
-                    </tr>
-                    <tr>
-                        <td>Saturday and Sunday</td>
-                        <td>Closed</td>
-                    </tr>
-                </table>
-            </div>
+        <main>
 
-            <!--Include a div id:"location-map" -->
-            <div class="location-map max-width">
-                <h3>Location</h3>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.3718196395257!2d-75.75800714622575!3d45.34863002513005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1680448094688!5m2!1sen!2sca"
-                    width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            <!--Insert section About us-->
+            <section class="about-us width" id="about-us">
+                <div class="about max-width">
+                    <img src="./images/about-us.jpg" alt="Image of the office">
+                    <div class="about-text">
+                        <h2>About Us</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
+                            at ad ea corrupti eaque sequi dolore aliquid iusto.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
+                            at ad ea corrupti eaque sequi dolore aliquid iusto.
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-        </section>
-    </main>
+            <!--Insert section classs:"our-services"-->
+            <section class="our-services width" id="services">
+                <div class="services max-width">
+                    <h2>Our Services</h2>
 
-    <!--Creating footer-->
-    <footer class="site-footer">
+                    <!--use div for service id:"digital-Trans"-->
+                    <div class="digital-trans">
+                        <img src="./images/digital.jpg" alt="Computers we use at the office">
+                        <h3>Digital Transformation</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
+                            at ad ea corrupti eaque sequi dolore aliquid iusto.
+                        </p>
+                        <button>
+                            <a href="#">Digital Plans</a>
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
 
-        <p>&copy;Copyright Three Star Media, 2020</p>
-        <p>All images are taken from <a href="#">Unsplash</a></p>
-    </footer>
+                    <!--use div for service id:"marketing"-->
+                    <div class="marketing max-width">
+                        <img src="./images/marketing.jpg" alt="Marketing image">
+                        <h3>Marketing</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
+                            at ad ea corrupti eaque sequi dolore aliquid iusto.
+                        </p>
+                        <button>
+                            <a href="#">Marketing Plans</a>
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+
+                    <!--use div for service id:"video"-->
+                    <div class="video max-width">
+                        <img src="./images/video.jpg" alt="Video Production image">
+                        <h3>Video Production</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
+                            at ad ea corrupti eaque sequi dolore aliquid iusto.
+                        </p>
+                        <button>
+                            <a href="#">Video Plans</a>
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+
+                    <!--use div for service id:"web-dev"-->
+                    <div class="web-dev max-width">
+                        <img src="./images/web.jpg" alt="Web Development image">
+                        <h3>Web Development</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
+                            at ad ea corrupti eaque sequi dolore aliquid iusto.
+                        </p>
+                        <button>
+                            <a href="#">Web Plans</a>
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+
+                    <!--use div for service id:"print"-->
+                    <div class="print max-width">
+                        <img src="./images/print.jpg" alt="Print image">
+                        <h3>Print</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
+                            at ad ea corrupti eaque sequi dolore aliquid iusto.
+                        </p>
+                        <button>
+                            <a href="#">Print Plans</a>
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--Insert section classs:"our-vision"-->
+
+            <section class="our-vision width">
+                <div class="vision max-width">
+                    <h3>Our Vision</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
+                        at ad ea corrupti eaque sequi dolore aliquid iusto.
+                    </p>
+                    <button>
+                        <a href="#">Learn More</a>
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                </div>
+            </section>
+
+
+            <!--Insert section classs:"our-team"-->
+
+            <section class="our-team width" id="team">
+                <div class="team max-width">
+                    <h2>Our Team</h2>
+                <!--Include a div for each team member "ceo" & "cfo" -->
+                    <div class="ceo max-width">
+                        <div class="ceo-img">
+                            <img src="./images/john.jpg" alt="a photo of John Doe">
+                        </div>
+                        <div class="ceo-info">
+                            <h3>John Doe</h3>
+                            <h5>CEO and Co-owner</h5>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
+                                at ad ea corrupti eaque sequi dolore aliquid iusto.
+                            </p>
+                        </div>
+                    </div>
+                <!--Include a div for each team member "ceo" & "cfo" -->
+                    <div class="cfo max-width">
+                        <div class="cfo-img">
+                            <img src="./images/bob.jpg" alt="a photo of Bob Rite">
+                        </div>
+                        <div class="cfo-info">
+                            <h3>Bob Rite</h3>
+                            <h5>CFO and Co-owner</h5>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Unde quae in neque! Similique non nisi nemo deleniti tenetur tempore dolorem harum,
+                                at ad ea corrupti eaque sequi dolore aliquid iusto.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Insert section classs:"contact-us"-->
+
+            <section class="contact-us width" id="contact">
+                <h2>Contact us</h2>
+
+                <!--Include a div id:"message-form" -->
+
+                <div class="message-form max-width">
+                    <h3>Send us a message</h3>
+                    <form action="#">
+                        <label for="full-name">Full Name</label><br>
+                        <input type="text"><br>
+                        <label for="email">Email</label><br>
+                        <input type="email"><br>
+                        <label for="message">Message</label><br>
+                        <textarea name="message" id="message"></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+
+                <!--Include a div id:"hours-of-operation" -->
+
+                <div class="hours-of-operation max-width">
+                    <h3>Hours of operation</h3>
+
+                    <!--insert table hours of operation-->
+                    <table>
+                        <tr>
+                            <th>Days</th>
+                            <th>Hours</th>
+                        </tr>
+                        <tr>
+                            <td>Monday to Friday</td>
+                            <td>9:00 am to 6:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday and Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!--Include a div id:"location-map" -->
+                <div class="location-map max-width">
+                    <h3>Location</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.3718196395257!2d-75.75800714622575!3d45.34863002513005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1680448094688!5m2!1sen!2sca"
+                        width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </section>
+        </main>
+
+        <!--Creating footer-->
+        <footer class="site-footer">
+            <p>&copy;Copyright Three Star Media, 2020</p>
+            <p>All images are taken from <a href="#">Unsplash</a></p>
+        </footer>
+    </div>
 
 </body>
 
