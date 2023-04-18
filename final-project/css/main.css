@@ -24,18 +24,18 @@ body {
     font-family: 'Open Sans', sans-serif;
     /* Recommended line height for the text
     https://www.w3schools.com/cssref/pr_dim_line-height.php */
-    line-height: 1.6;  
+    line-height: 1.6;
 }
 
 .wrapper {
-    max-width:1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 /* To clear floating elements when needed */
-.clearfix { 
+.clearfix {
     overflow: auto;
-  }
+}
 
 
 p {
@@ -43,17 +43,23 @@ p {
     padding: .75rem;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: inherit;
-    text-decoration-line:none;
+    text-decoration-line: none;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     color: #c78c06;
 }
 
-h1, h2, h3, h4, h5 {
-    font-weight:bolder;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: bolder;
     padding: .75rem;
 }
 
@@ -66,11 +72,11 @@ h2 {
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 h5 {
@@ -102,7 +108,7 @@ h5 {
     color: #c78c06;
     text-decoration: none;
     padding: 1.1rem;
-    
+
 }
 
 .navigation-list a:hover,
@@ -141,7 +147,7 @@ h5 {
 .banner {
     width: 100%;
     background: url(../images/main-banner.jpg) no-repeat;
-    background-size: cover; 
+    background-size: cover;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -185,16 +191,28 @@ h5 {
     padding: 10px;
 }
 
-.digital-trans, .marketing, .video, .web-dev, .print {
+.digital-trans,
+.marketing,
+.video,
+.web-dev,
+.print {
     background-color: #ffe6ac;
 }
 
-.digital-trans img, .marketing img, .video img, .web-dev img, .print img {
+.digital-trans img,
+.marketing img,
+.video img,
+.web-dev img,
+.print img {
     width: 100%;
     height: auto;
 }
 
-.digital-trans button, .marketing button, .video button, .web-dev button, .print button {
+.digital-trans button,
+.marketing button,
+.video button,
+.web-dev button,
+.print button {
     background-color: #222;
     border: none;
     color: white;
@@ -233,13 +251,15 @@ h5 {
     padding: 10px;
 }
 
-.ceo, .cfo {
+.ceo,
+.cfo {
     background-color: #ffe6ac;
 }
 
-.ceo-img img, .cfo-img img{
+.ceo-img img,
+.cfo-img img {
     width: 100%;
-	height: auto;
+    height: auto;
 }
 
 hr {
@@ -251,7 +271,7 @@ hr {
 
 
 /* 
-        Contact Form Styles 
+        Contact Us Styles 
 */
 
 form {
@@ -264,7 +284,9 @@ label {
     font-size: 1.10rem;
 }
 
-form input[type="text"], form input[type="email"], textarea {
+form input[type="text"],
+form input[type="email"],
+textarea {
     width: 100%;
     border: 1px solid #222;
     padding: 0.5rem;
@@ -280,7 +302,7 @@ form input[type="submit"] {
 /*      Map Styles
 */
 
-.location-map iframe{
+.location-map iframe {
     width: 100%;
 }
 
@@ -288,7 +310,7 @@ form input[type="submit"] {
 /* 
         Table Styles 
 */
-.hours-of-operation{
+.hours-of-operation {
     margin-left: 10px;
 }
 
@@ -301,8 +323,8 @@ th {
     border: 1px solid;
     background-color: #ffe6ac;
     text-align: center;
-    height: 3rem;    
-    vertical-align:middle;        
+    height: 3rem;
+    vertical-align: middle;
 }
 
 td {
@@ -319,15 +341,17 @@ td {
         Footer Styles 
 */
 
-.site-footer{
+.site-footer {
     background-color: black;
     color: #c78c06;
     margin-top: 1.25rem;
-    
+
 }
 
 
-/* Media Queries - desktop styles */
+/* 
+        Media Queries - desktop styles 
+*/
 
 
 @media screen and (min-width: 760px) {
@@ -335,173 +359,169 @@ td {
         background: rgba(0, 0, 0, 0.6); 
     }*/
 
-.banner{
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
-/*Navigation Bar*/
+    .banner {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
 
-.navigation {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
+    /*Navigation Bar*/
 
-.navigation-list {
-    display: flex;
-    flex: 1;
-}
+    .navigation {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
 
-li {
-    display: inline;
-    margin: 20px 20px;
-    flex: 1;
-}
+    .navigation-list {
+        display: flex;
+        flex: 1;
+    }
 
-.banner{
-    background-position: 50% 50%;
-    padding-left: 10;
-}
+    li {
+        display: inline;
+        margin: 20px 20px;
+        flex: 1;
+    }
 
-/* Centering the content */
+    .banner {
+        background-position: 50% 50%;
+        padding-left: 10;
+    }
 
-.navigation,
-.banner,
-.about-us,
-.our-vision,
-.our-services,
-.our-team,
-.contact-us,
-.hours-of-operation,
-.site-footer {
-    margin: 0 auto;
-    width: 100%;
-    padding-left: 4rem;
-    padding-right: 4rem;
-}
+    /* Centering the content */
 
-/* Section: About us*/
+    .navigation,
+    .banner,
+    .about-us,
+    .our-vision,
+    .our-services,
+    .our-team,
+    .contact-us,
+    .hours-of-operation,
+    .site-footer {
+        /*margin: 0 auto;*/
+        width: 100%;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
 
-.about {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}   
+    /* Section: About us*/
 
-
-/* Our services section with */
-
-.services {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas:
-        "h2 h2 h2 h2 h2 h2"
-        "digital digital digital marketing marketing marketing"
-        "video video web web print print";
-    gap: 7px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-
-}
-
-.our-services h2 {
-    grid-area: h2;
-}
-.digital-trans {
-    grid-area: digital;
-    font-size: 1em;
-}
-
-.marketing {
-    grid-area: marketing;
-}
-
-.video {
-    grid-area: video;
-}
-
-.web-dev {
-    grid-area: web;
-}
-
-.print {
-    grid-area: print;
-}
-
-.our-services-grid img {
-    width: 100%;
-    height: auto;
-}
-
-.our-services-grid button {
-    width: 90%;
-    margin: 0 auto;
-    display: table;
-    margin-bottom: 10px;
-}
-
-/* Our team */
-
-.team {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-content: center;
-    grid-template-areas: 
-                         "h2 h2"
-                         "ceo-img ceo-info"
-                         "cfo-info cfo-img";
-}
-h2 {
-    grid-area: h2;
-}
-
-.ceo-img {
-    grid-area: ceo-img;
-    
-}
-.ceo-info {
-    grid-area: ceo-info;
-}
-
-.cfo-info  {
-    grid-area: cfo-info;
-}
-
-.cfo-img {
-    grid-area: cfo-img;
-}
- 
+    .about {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
 
 
+    /* Our services section with */
 
-/* Contact us, use grid in the container */
+    .services {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 0.5fr 5fr 5fr;
+        grid-template-areas:
+            "h2 h2 h2 h2 h2 h2"
+            "digital digital digital marketing marketing marketing"
+            "video video web web print print";
+        gap: 7px;
+        padding-left: 2rem;
+        padding-right: 2rem;
 
-.contact-us {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-        "title title"
-        "form map"
-        "hours hours";
-    width: 100%;
-}
+    }
 
-.contact-us h2 {
-    grid-area: title;
-}
+    .our-services h2 {
+        grid-area: h2;
+    }
 
-.message-form {
-    grid-area: form;
-}
+    .digital-trans {
+        grid-area: digital;
+        font-size: 1em;
+    }
 
-.location-map {
-    grid-area: map;
-}
+    .marketing {
+        grid-area: marketing;
+    }
 
-.hours-of-operation {
-    grid-area: hours;
-}
+    .video {
+        grid-area: video;
+    }
+
+    .web-dev {
+        grid-area: web;
+    }
+
+    .print {
+        grid-area: print;
+    }
+
+    .our-services-grid img {
+        width: 100%;
+        height: auto;
+    }
+
+    .our-services-grid button {
+        width: 90%;
+        margin: 0 auto;
+        display: table;
+        margin-bottom: 10px;
+    }
+
+    /* Our team */
+
+    .team-grid {
+        display: flex;
+    }
+
+    .ceo,
+    .cfo {
+        width: calc(100%);
+        display: flex;
+    }
+
+    .ceo-img,
+    .cfo-img {
+        max-width: 100%;
+    }
+
+    .cfo {
+        flex-direction: row-reverse;
+    }
+
+
+   
+    /* Contact us, use grid in the container */
+
+    .contact-us {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "h2 tih2le"
+            "form map"
+            "hours hours";
+        width: 100%;
+    }
+
+    .contact-us h2 {
+        grid-area: h2;
+    }
+
+    .message-form {
+        grid-area: form;
+    }
+
+    .location-map {
+        grid-area: map;
+        clear: both;
+        width: 100%;
+        height: 100%;
+    }
+
+    .hours-of-operation {
+        grid-area: hours;
+        width: 100%;
+    }
 
 }
