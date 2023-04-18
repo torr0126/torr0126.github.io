@@ -29,6 +29,7 @@ body {
 
 .wrapper {
     max-width:1200px;
+    margin: 0 auto;
 }
 
 /* To clear floating elements when needed */
@@ -65,7 +66,7 @@ h2 {
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 h4 {
@@ -100,7 +101,7 @@ h5 {
     list-style: none;
     color: #c78c06;
     text-decoration: none;
-    padding: 1rem;
+    padding: 1.1rem;
     
 }
 
@@ -140,8 +141,9 @@ h5 {
 .banner {
     width: 100%;
     background: url(../images/main-banner.jpg) no-repeat;
-    background-size: cover;
-    padding: 3rem;
+    background-size: cover; 
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .banner-text {
@@ -175,7 +177,7 @@ h5 {
 }
 
 /* 
-        Services Styles 
+        Our Services Styles 
 */
 
 .our-services {
@@ -325,9 +327,181 @@ td {
 }
 
 
-/* Media Queries -  */
+/* Media Queries - desktop styles */
+
+
 @media screen and (min-width: 760px) {
     /*body {
         background: rgba(0, 0, 0, 0.6); 
     }*/
+
+.banner{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+/*Navigation Bar*/
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.navigation-list {
+    display: flex;
+    flex: 1;
+}
+
+li {
+    display: inline;
+    margin: 20px 20px;
+    flex: 1;
+}
+
+.banner{
+    background-position: 50% 50%;
+    padding-left: 10;
+}
+
+/* Centering the content */
+
+.navigation,
+.banner,
+.about-us,
+.our-vision,
+.our-services,
+.our-team,
+.contact-us,
+.hours-of-operation,
+.site-footer {
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+/* Section: About us*/
+
+.about {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}   
+
+
+/* Our services section with */
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+        "h2 h2 h2 h2 h2 h2"
+        "digital digital digital marketing marketing marketing"
+        "video video web web print print";
+    gap: 7px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.our-services h2 {
+    grid-area: h2;
+}
+.digital-trans {
+    grid-area: digital;
+    font-size: 1em;
+}
+
+.marketing {
+    grid-area: marketing;
+}
+
+.video {
+    grid-area: video;
+}
+
+.web-dev {
+    grid-area: web;
+}
+
+.print {
+    grid-area: print;
+}
+
+.our-services-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.our-services-grid button {
+    width: 90%;
+    margin: 0 auto;
+    display: table;
+    margin-bottom: 10px;
+}
+
+/* Our team */
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    grid-template-areas: 
+                         "h2 h2"
+                         "ceo-img ceo-info"
+                         "cfo-info cfo-img";
+}
+h2 {
+    grid-area: h2;
+}
+
+.ceo-img {
+    grid-area: ceo-img;
+    
+}
+.ceo-info {
+    grid-area: ceo-info;
+}
+
+.cfo-info  {
+    grid-area: cfo-info;
+}
+
+.cfo-img {
+    grid-area: cfo-img;
+}
+ 
+
+
+
+/* Contact us, use grid in the container */
+
+.contact-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "title title"
+        "form map"
+        "hours hours";
+    width: 100%;
+}
+
+.contact-us h2 {
+    grid-area: title;
+}
+
+.message-form {
+    grid-area: form;
+}
+
+.location-map {
+    grid-area: map;
+}
+
+.hours-of-operation {
+    grid-area: hours;
+}
+
 }
