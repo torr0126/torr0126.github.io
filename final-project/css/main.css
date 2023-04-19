@@ -353,7 +353,7 @@ td {
 }
 
 
-/* 
+/*
         Media Queries - desktop styles 
 */
 
@@ -370,21 +370,25 @@ td {
 
     /*Navigation Bar*/
 
-    .navigation {
-        display: flex;
-        justify-content: center;
-        margin: auto;
-    }
-
-    .navigation-list {
-        display: flex;
-        flex: 1;
-    }
-
-    li {
-        display: inline;
-        margin: 20px 20px;
-        flex: 1;
+    .navigation { 
+        display: flex; 
+        justify-content: center; 
+        margin: auto; 
+    } 
+ 
+    .logo { 
+        height: 7%; 
+    } 
+ 
+    .navigation-list { 
+        display: flex; 
+        flex: auto; 
+    } 
+ 
+    li { 
+        display: inline; 
+        margin: 20px 20px; 
+        flex: auto; 
     }
 
     .banner {
@@ -474,24 +478,55 @@ td {
 
     /* Our team */
 
-    .team-grid {
-        display: flex;
+
+    .team-grid { 
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        grid-template-areas: 
+            "ceo" 
+            "cfo"; 
+        width: 100%; 
+    } 
+ 
+    .ceo, 
+    .cfo { 
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr; 
+        grid-template-areas: 
+            "ceo-img ceo-info" 
+            "cfo-info cfo-img" 
+            "hours hours"; 
+        width: 100%; 
+    } 
+ 
+    .ceo{ 
+        grid-area: ceo; 
+    } 
+ 
+    .cfo{ 
+        grid-area: cfo; 
+    } 
+ 
+    .ceo-img { 
+        grid-area: ceo-img; 
+    } 
+ 
+    .ceo-info { 
+        grid-area: ceo-info; 
+    } 
+ 
+    .cfo-info { 
+        grid-area: cfo-info; 
+    } 
+ 
+    .cfo-img { 
+        grid-area: cfo-img; 
     }
 
-    .ceo,
-    .cfo {
-        width: calc(100%);
-        display: flex;
-    }
 
-    .ceo-img,
-    .cfo-img {
-        max-width: 100%;
-    }
 
-    .cfo {
-        flex-direction: row-reverse;
-    }
 
 
    
